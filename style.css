@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+ 
+.containeur {
+   background-color: #eeeeee69;
+   width: 80%;
+   height: 500px;
+   margin:80px auto;
+   display: flex;
+   flex-direction: column;
+
+}
+/*start head*/
+.containeur  .head {
+    width: 95%;
+    height: 50px;
+    background-color: white;
+    margin: 10px auto ;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      padding: 0 2.7%;
+}
+.containeur .head  {
+    font-weight: bold;
+    font-size: 20px;
+}
+.containeur .head .number-question .number ,
+.containeur .head .name-langague .langague{
+     color: blue;
+}
+/*end head*/
+/* start body*/
+.containeur  .body {
+    width: 95%;
+    height: fit-content;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 3px;
+    padding-bottom: 25px;
+}
+.containeur  .body .question {
+    width: 95%;
+    margin: auto;
+}
+.containeur  .body .answers {
+    width: 95%;
+    margin: auto;
+    background-color: #d5cdcd21;
+    margin-top: -8px;
+   
+}
+/* end body*/
+/* start submit */
+.containeur  .submit {
+    background-color: #0000ff82;
+    width: 95%;
+    height: 50px;
+    margin: 10px auto ;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;   
+}
+/* end submit*/
